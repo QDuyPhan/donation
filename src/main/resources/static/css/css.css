@@ -1,0 +1,53 @@
+body {
+    font-family: 'Noto+Sans', sans-serif;
+    font-weight: 700;
+
+}
+#dropdown{
+    border:none !important;
+}
+.btn{
+    border:none !important;
+}
+.animated-dropdown {
+    transform: translateY(100px); /* Đẩy phần tử xuống dưới */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Hiệu ứng chuyển đổi */
+}
+.dropdown .animated-dropdown:hover {
+    opacity: 1; /* Hiển thị phần tử */
+    transform: translateY(0); /* Phần tử trở lại vị trí ban đầu */
+}
+.animated-dropdown {
+    transform: translateY(100px); /* Đẩy phần tử xuống dưới */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Hiệu ứng chuyển đổi */
+}
+.dropdown1 .animated-dropdown:hover {
+    opacity: 1; /* Hiển thị phần tử */
+    transform: translateY(0); /* Phần tử trở lại vị trí ban đầu */
+}
+.header-navigation:after{
+    position: absolute;
+    content: "";
+    height: 1px;
+    background-color: #d6c8c8;
+    width: 100%;
+    left: 0; /* Căn dòng kẻ theo cạnh trái của div */
+    bottom: 0px; /* Đặt dòng kẻ cách dưới div 10px */
+}
+#tabs--tab--0:hover{
+    color: #d42a87;
+
+}
+#tabs--tab--1:hover{
+    color: #d42a87;
+
+}
+#buttonQG:hover{
+    background-color: #d60058 !important;
+}
+.nav-link.active {
+    color:#d42a87 !important;
+}
+.nav-link{
+    color:black !important;
+}
