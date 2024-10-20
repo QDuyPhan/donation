@@ -1,0 +1,16 @@
+.slideBar{
+    max-width: 75rem;
+}
+.slideBar a {
+    text-decoration: none;
+}
+.slideBar a:hover {
+    color:black !important;
+}
+.activePage {
+    font-weight: bold;
+}
+.custom-column {
+    flex: 0 0 30%; /* Điều chỉnh % cho độ rộng giữa 25% (md-3) và 33.33% (md-4) */
+    max-width: 30%;
+}
